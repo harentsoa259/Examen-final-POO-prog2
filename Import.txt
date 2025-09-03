@@ -1,0 +1,16 @@
+import java.util.List;          // Interface List
+import java.util.ArrayList;     // Implémentation courante
+import java.util.LinkedList;    // Autre implémentation
+import java.util.Map;           // Interface Map
+import java.util.HashMap;       // Implémentation courante
+import java.util.Set;           // Interface Set
+import java.util.HashSet;       // Implémentation courante
+import java.util.Collections;   // Méthodes utilitaires
+import java.util.Arrays;        // Méthodes pour arrays
+
+
+temps
+import java.time.LocalDate;     // Date sans timezone
+import java.time.LocalDateTime; // Date et heure
+import java.time.format.DateTimeFormatter; // Formatage des dates
+
