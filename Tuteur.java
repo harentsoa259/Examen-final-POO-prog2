@@ -10,4 +10,16 @@ public class Tuteur extends Personne {
     }
 
     public String getLienAvecEtudiant() { return lienAvecEtudiant; }
+
+        @Override
+        public String toString() {
+        return "Personne{id="+ getId() +
+                " , nom et prenom=" + getNom()+getPrenom() +
+                " , Date de naissance="+getDateNaissance() +
+                " , Email="+getEmail()+
+                " , Telephone="+getTelephone()+
+                " , Lien avec l'etudiant="+getLienAvecEtudiant()
+                +
+           "}";
+    }
 }

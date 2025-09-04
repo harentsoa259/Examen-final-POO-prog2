@@ -24,4 +24,9 @@ public abstract class Personne {
     public LocalDate getDateNaissance() { return dateNaissance; }
     public String getEmail() { return email; }
     public String getTelephone() { return telephone; }
+
+     @Override
+        public String toString() {
+            return "Personne{id="+ getId() + " , nom et prenom=" + getNom()+getPrenom() + " , Date de naissance="+getDateNaissance() + " , Email="+getEmail() +" , Telephone="+getTelephone() +"}";
+        }
 }

@@ -11,4 +11,16 @@ public class Enseignant extends Personne {
     }
 
     public String getSpecialite() { return specialite; }
+
+        @Override
+    public String toString() {
+        return "Personne{id="+ getId() +
+                " , nom et prenom=" + getNom()+getPrenom() +
+                " , Date de naissance="+getDateNaissance() +
+                " , Email="+getEmail()+
+                " , Telephone="+getTelephone() +
+                " , Specialite="+getSpecialite()
+                +
+           "}";
+    }
 }
